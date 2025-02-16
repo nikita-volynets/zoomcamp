@@ -81,4 +81,7 @@ with pipeline.sql_client() as client:
     print(res)
 ```
 
+![image](https://github.com/user-attachments/assets/417e985b-d4c1-4330-b4db-0be5dac7237a)
+
+
 **Answer:** 12.3049
