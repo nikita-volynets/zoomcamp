@@ -47,12 +47,20 @@ pipeline = dlt.pipeline(
 
 ```
 
-![image.png](attachment:a7c4a7fb-6fe7-47b9-aefd-dcb94c0ca246:image.png)
+![image](https://github.com/user-attachments/assets/2c427d69-85d5-473e-9e55-bb8ed651f033)
+
 
 **Answer:** 4
 
 
 ### Question 3
+
+```python
+df = pipeline.dataset(dataset_type="default").rides.df()
+df
+```
+
+![image](https://github.com/user-attachments/assets/f2e79e05-bb67-4df3-ac22-d636d3d8e773)
 
 
 **Answer:** 10000
@@ -60,5 +68,17 @@ pipeline = dlt.pipeline(
 
 ### Question 4
 
+```python
+with pipeline.sql_client() as client:
+    res = client.execute_sql(
+            """
+            SELECT
+            AVG(date_diff('minute', trip_pickup_date_time, trip_dropoff_date_time))
+            FROM rides;
+            """
+        )
+    # Prints column values of the first row
+    print(res)
+```
 
 **Answer:** 12.3049
