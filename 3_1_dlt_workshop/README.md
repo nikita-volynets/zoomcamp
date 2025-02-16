@@ -10,6 +10,9 @@ pip --version
 
 **Answer:** 1.6.1
 
+
+### Question 2
+
 ```python
 
 import dlt
@@ -43,10 +46,6 @@ pipeline = dlt.pipeline(
 
 
 ```
-
-
-### Question 2
-
 
 **Answer:** 4
 
