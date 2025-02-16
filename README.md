@@ -2,10 +2,10 @@
 
 ### Question 1
 
-***sql
+```bash
 pip install "dlt[duckdb]"
 
 pip --version
-***
+```
 
 ***Answer:*** 1.6.1
