@@ -8,4 +8,6 @@ pip install "dlt[duckdb]"
 pip --version
 ```
 
-***Answer:*** 1.6.1
+**Answer:** 1.6.1
+
+### Question 2
