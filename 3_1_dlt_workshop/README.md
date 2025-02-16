@@ -47,6 +47,8 @@ pipeline = dlt.pipeline(
 
 ```
 
+![image.png](attachment:a7c4a7fb-6fe7-47b9-aefd-dcb94c0ca246:image.png)
+
 **Answer:** 4
 
 
